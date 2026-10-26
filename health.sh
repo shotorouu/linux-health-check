@@ -11,7 +11,7 @@ TIMESTAMP="$(date -u '+%Y-%m-%dT%H:%M:%SZ')"
 
 usage() {
   cat <<'EOF'
-Usage: ./health [explain]
+Usage: ./health.sh [explain]
 
 Checks CPU idle, memory available, and root disk free on Ubuntu.
 A metric is healthy when its free/available capacity is above 60%.

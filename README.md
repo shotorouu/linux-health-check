@@ -17,9 +17,9 @@ Overall status is healthy only when all three pass.
 ## Usage
 
 ```bash
-chmod +x ./health
-./health
-./health explain
+chmod +x ./health.sh
+./health.sh
+./health.sh explain
 ```
 
 Exit code `0` means overall healthy; non-zero means unhealthy.
